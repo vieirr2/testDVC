@@ -1,4 +1,7 @@
 [core]
-    remote = local
+    remote = mydata
 ['remote "local"']
     url = ../../test_dvc_backup
+['remote "mydata"']
+    url = ssh://vieirr2@172.105.250.118/home/vieirr2/newdata
+    ask_password = true
